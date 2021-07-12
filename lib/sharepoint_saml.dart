@@ -73,7 +73,7 @@ class AuthHeadersResposne {
 
   const AuthHeadersResposne({required this.cookie});
 
-  toMap() {
+  Map<String, dynamic> toMap() {
     return {'Cookie': cookie};
   }
 }
